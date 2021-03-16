@@ -1,0 +1,15 @@
+.dt-error,
+.column-error{
+    background-color: #d61c1d;
+    color: white;
+    position: relative;
+}
+.dt-error > span,
+.column-error > div > span{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+table.bidding-middle td{
+    vertical-align: middle;
+}
